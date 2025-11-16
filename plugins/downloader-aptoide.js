@@ -1,4 +1,4 @@
-import Starlights from "@StarlightsTeam/Scraper"
+import NEZUKO from "@NEZUKO/Scraper"
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
 if (!text) return conn.reply(m.chat, '[ ✰ ] Ingresa el nombre de la aplicación que deseas descargar de *Aptoide* junto al comando.\n\n`» Ejemplo :`\n' + `> *${usedPrefix + command}* WhatsApp`, m, rcanal)
